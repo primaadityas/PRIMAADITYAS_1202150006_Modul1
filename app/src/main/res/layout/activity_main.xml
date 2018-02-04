@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.primaadityas_1202150006_modul1.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="MAKAN MALAM"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:text="Dengan Milea"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <EditText
+        android:id="@+id/editTextNasi"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <EditText
+        android:id="@+id/editTextPorsi"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorAccent"
+            android:onClick="eatbus"
+            android:text="Eatbus"
+            android:textColor="@android:color/background_light"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="319dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorAccent"
+            android:onClick="apnormal"
+            android:text="Apnormal"
+            android:textColor="@android:color/background_light"
+            tools:layout_editor_absoluteX="286dp"
+            tools:layout_editor_absoluteY="319dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
